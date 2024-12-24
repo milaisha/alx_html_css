@@ -1,35 +1,58 @@
-/* Membership Section Styling */
-.membership {
-    background-color: #f4f4f4;
-    padding: 40px 20px;
+/* Footer Styling */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 30px 20px;
     text-align: center;
   }
   
-  .membership h2 {
-    font-size: 24px;
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 20px;
+  .footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 20px;
   }
   
-  .membership p {
+  .footer-logo img {
+    max-width: 150px;
+  }
+  
+  .footer-links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .footer-links li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  .footer-links a {
+    color: #ffffff;
+    text-decoration: none;
     font-size: 16px;
-    color: #666;
-    margin-bottom: 30px;
   }
   
-  .membership .cta-button {
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
-    text-transform: uppercase;
-    font-weight: bold;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
+  .footer-links a:hover {
+    text-decoration: underline;
   }
   
-  .membership .cta-button:hover {
-    background-color: #0056b3;
+  .footer-social a {
+    margin: 0 10px;
   }
+  
+  .footer-social img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .footer p {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #ddd;
+  }
+  
   
