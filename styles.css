@@ -1,93 +1,35 @@
-/* styles.css */
-body {
-    margin: 0;
-    font-family: 'Source Sans Pro', sans-serif;
-  }
-  
-  header {
-    background-color: #2e3a46;
-    padding: 20px;
-  }
-  
-  nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin: 0;
-    padding: 0;
-  }
-  
-  nav a {
-    color: white;
-    text-decoration: none;
-    font-weight: 600;
-  }
-  
-  #hero {
-    height: 100vh;
-    background: url('images/hero-bg.jpg') no-repeat center center/cover;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  }
-  
-  #hero h1 {
-    font-size: 3rem;
-    margin-bottom: 10px;
-  }
-  
-  #hero p {
-    font-size: 1.5rem;
-    margin-top: 0;
-  }
-  
-  #quote {
+/* Membership Section Styling */
+.membership {
     background-color: #f4f4f4;
-    padding: 50px 20px;
+    padding: 40px 20px;
     text-align: center;
   }
   
-  blockquote {
-    font-size: 1.5rem;
-    font-style: italic;
+  .membership h2 {
+    font-size: 24px;
+    font-weight: bold;
     color: #333;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    border-left: 4px solid #2e3a46;
+    margin-bottom: 20px;
   }
   
-  #videos {
-    padding: 50px 20px;
-    background-color: #ffffff;
-    text-align: center;
+  .membership p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 30px;
   }
   
-  .video-list {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
+  .membership .cta-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
   }
   
-  .video-item {
-    width: 300px;
-    text-align: center;
-  }
-  
-  .video-item iframe {
-    width: 100%;
-    height: 200px;
-    border-radius: 10px;
-  }
-  
-  .video-item p {
-    margin-top: 10px;
-    font-size: 1rem;
-    color: #555;
+  .membership .cta-button:hover {
+    background-color: #0056b3;
   }
   
