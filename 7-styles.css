@@ -1,0 +1,55 @@
+/* Animations for What we do... section */
+.what-we-do .item {
+    display: inline-block;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.what-we-do .item:hover {
+    transform: scale(1.1);
+    opacity: 0.9;
+}
+
+/* Continuous bouncing animation */
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.what-we-do .item {
+    animation: bounce 2s infinite;
+}
+
+/* Animations for Our results section */
+.results-grid .pentagon {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.results-grid .pentagon:hover {
+    transform: rotate(15deg) scale(1.1);
+    background-color: #ff8080;
+}
+
+/* Optional: Staggered fade-in for pentagons */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.results-grid .pentagon {
+    animation: fadeIn 1s ease-in-out;
+    animation-fill-mode: both;
+}
